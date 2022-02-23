@@ -19,4 +19,3 @@ function displayPosts(posts) {
     postContainer.appendChild(div);
   }
 }
-loadPosts();
