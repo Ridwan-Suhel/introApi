@@ -4,7 +4,6 @@ function loadPosts() {
     .then((data) => displayPosts(data));
 }
 function displayPosts(posts) {
-  console.log(posts);
   const postContainer = document.getElementById("post-container");
   for (const post of posts) {
     const div = document.createElement("div");
